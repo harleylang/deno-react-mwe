@@ -8,7 +8,7 @@ const App = () => {
 
             <p>Testing!</p>
 
-            <span>A N O T H E R O N E</span>
+            <span>A N O T H E R T E S T</span>
 
         </>
 

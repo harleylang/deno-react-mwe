@@ -3,8 +3,7 @@ import ReactDOMServer from 'react-dom/server';
 import { serve } from 'serve';
 import App from './app.tsx';
 
-// remove 'any' below after fix with: https://github.com/skypackjs/skypack-cdn/issues/120
-const appStr = (ReactDOMServer as any).renderToString(<App />);
+const appStr = ReactDOMServer.renderToString(<App />);
 
 const s = serve(":8080");
 

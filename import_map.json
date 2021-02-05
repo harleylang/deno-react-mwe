@@ -2,7 +2,7 @@
     "imports": {
         "react": "https://cdn.skypack.dev/react?dts",
         "react-dom": "https://cdn.skypack.dev/react-dom?dts",
-        "react-dom/server": "https://dev.jspm.io/react-dom/server",
+        "react-dom/server": "https://cdn.skypack.dev/react-dom/server?dts",
         "serve": "https://deno.land/std@0.85.0/http/server.ts"
     }
 }
